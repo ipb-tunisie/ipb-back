@@ -26,7 +26,7 @@ const connectionParams = {
 //Connection to DataBase
 mongoose
   .connect(
-    "mongodb+srv://ipb2420:CDsYU3g5LUDistnT@ipb.khywjzr.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://ipb2420:CDsYU3g5LUDistnT@ipb.khywjzr.mongodb.net/ipbDB?retryWrites=true&w=majority",
     connectionParams
   )
   .then(() => {
